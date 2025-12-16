@@ -28,9 +28,6 @@ header > div {
     background-color: var(--cor3);
 }
 
-header > div > nav:hover {
-    background-color: #f5f5f5;
-}
 
 div > h1 {
     text-align: center;
@@ -49,12 +46,7 @@ nav{
 }
 
 
-.busca:hover {
-    background-color: #f5f5f5;
-    border: none;
-}
 .busca:focus {
-    background-color: #f5f5f5;
     outline: none;
 }
 .busca {
