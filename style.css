@@ -240,6 +240,10 @@ input {
     margin-right: 10px;
 }
 
+.Livro img:hover {
+    transform: scale(1.01);
+}
+
 .FundoCarrinho {
     position: relative;
     border-radius: 10px;
@@ -251,12 +255,20 @@ input {
 }
 
 .FundoCarrinho img {
-    cursor: cell;
     padding: 10px;
     border-radius: 20px;
     position: absolute;
     height: 80px;
     width: auto;
+}
+
+.FundoCarrinho img:hover {
+        cursor: pointer;
+        transform: scale(1.01);
+}
+
+.Livro h3 {
+    bottom: 0;
 }
 
 
