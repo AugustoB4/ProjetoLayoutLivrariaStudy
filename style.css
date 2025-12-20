@@ -15,65 +15,105 @@
 }
 
 /* Cabeçalho */
-header .TopoPag {
-    position: relative;
-    background-color: var(--cor3);
-    align-items: center;
-    width: 100%;
-    height: 160px;
-}
-
-.TopoPag > div {
-    position: relative;
+.ContainerBoasVindas {
     background-color: var(--cor2);
-    color: var(--cor3);
-    height: 40px;
+    position: relative;
     width: 100%;
+    height: 50px;
     margin-top: 0;
 }
 
-.TopoPag > div > h3 {
+.ContainerBoasVindas .saudacao {
+    position: absolute;
     padding-left: 20px;
-    padding-top: 8px;
-    position: absolute;
+    padding-top: 15px;
     text-align: left;
-    padding-top: 8px;
-    font-weight: normal;
+    color: white;
 }
 
-.BoasVindas {
-    width: 100%;
-    position: relative;
+.ContainerBoasVindas .saudacao:hover {
+    cursor: default;
 }
 
-.LogoTipo {
-    margin-left: 10px;
+
+.ContainerBoasVindas .whats {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
     position: absolute;
-    height: 70%;
+    right: 100px;
+    top: 15px;
+    color: white;
+}
+
+.ContainerBoasVindas .whats:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.ContainerBoasVindas .IconeInsta {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    height: 30px;
     width: auto;
 }
 
-div .BoasVindas img {
+.ContainerBoasVindas .IconeInsta:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ContainerBoasVindas .IconeEmail {
     position: absolute;
+    right: 20px;
+    top: 10px;
     height: 30px;
-    margin-right: 0px;
+    width: auto;
+}
+
+.ContainerBoasVindas .IconeEmail:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 
-div .BoasVindas .whats {
-    font-size: 18px;
-    margin-left: 0px;
-    position: absolute;
-    padding-top: 5px;
-}
-
-div .Busca {
+.ContainerHeader {
+    position: relative;
+    background-color: var(--cor3);
+    align-items: center;
+    margin-top: 0px;
     width: 100%;
-    position: absolute;
-    margin-top: 120px;
+    height: 150px;
 }
 
+.LogoTipo {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    height: 90%;
+    width: auto;
+}
 
+.ContainerAbaDePesquisa {
+    position: relative;
+    background-color: var(--cor4);
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.AbaDePesquisa {
+    outline: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 25px;
+    width: 40%;
+    height: 70%;
+    top: 15%;
+    left: 30%;
+    box-shadow: 0px 0px 5px var(--cor5);
+}
 
 /* Conteúdo Principal */
 
