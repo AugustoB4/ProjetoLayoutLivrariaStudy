@@ -112,6 +112,8 @@
     background-color: white;
     border-radius: 15px;
     width: 50%;
+    min-width: none;
+    max-width: 670px;
     height: 30%;
     top: 30%;
     left: 30%;
@@ -155,9 +157,24 @@ input:focus {
 }
 
 .Busca > nav > ul > li > a:hover {
-    text-shadow: #7e7e7e 0.5px 0.5px 1px;
+    background-color: white;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
+.Busca > nav > ul > li > a:focus {
+background-color: white;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 
 /* Conteúdo Principal */
 
