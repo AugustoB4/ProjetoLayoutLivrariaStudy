@@ -222,8 +222,9 @@ input {
 }
 
 .Livro {
+    float: left;
+    margin-right: 10px;
     background-color: var(--cor4);
-    position: absolute;
     height: auto;
     height: 400px;
     width: 250px;
