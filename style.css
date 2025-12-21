@@ -275,3 +275,54 @@ input {
     border-top-left-radius: 10px;
     text-align: center;
 }
+
+/* ROdapé */
+.Rodape {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0
+}
+
+.Rodape div {
+    background-color: var(--cor2);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.Rodape h3 {
+    font-size: 20px;
+}
+
+.Rodape p {
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Info a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 254, 254)
+}
+
+.Info a:hover {
+    text-decoration: underline
+}
+
+.Info {
+    position: absolute;
+    float: left;
+    width: 50%;
+}
+
+.Pagamentos {
+    position: absolute;
+    float: left;
+    width: 50%;
+}
+
+.Pagamentos img {
+    height: 80px;
+    width: auto;
+}
