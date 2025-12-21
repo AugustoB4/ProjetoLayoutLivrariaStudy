@@ -152,6 +152,7 @@ input {
 }
 
 .Busca {
+    background-color: var(--cor4);
     padding-left: 0;
 }
 
