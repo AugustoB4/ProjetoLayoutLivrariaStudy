@@ -278,9 +278,11 @@ input {
 
 /* ROdapé */
 .Rodape {
-    position: relative;
     width: 100%;
-    margin-bottom: 0
+    height: auto;
+    margin-bottom: 0;
+    overflow: hidden
+    
 }
 
 .Rodape div {
@@ -311,18 +313,24 @@ input {
 }
 
 .Info {
-    position: absolute;
     float: left;
-    width: 50%;
+    width: 48%;
 }
 
 .Pagamentos {
-    position: absolute;
-    float: left;
-    width: 50%;
+    float: right;
+    width: 47%;
+    height: 110px
 }
 
 .Pagamentos img {
+    height: 80px;
+    width: auto;
+}
+
+.Creditos {
+    float: left;
+    background-color: var(--cor2);
     height: 80px;
     width: auto;
 }
