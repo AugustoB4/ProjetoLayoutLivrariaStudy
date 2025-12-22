@@ -274,58 +274,60 @@ input {
 }
 
 /* ROdapé */
-.Rodape {
+.RodapePrincipal {
     width: 100%;
-    height: auto;
-    margin-bottom: 0;
-    overflow: hidden
+    color: black;
+    background-color: var(--cor3);
+    display: inline-block;
+    padding-top: 40px;
+    margin-top: 10px;
 }
 
-.Rodape div {
-    background-color: var(--cor2);
-    margin: 10px;
+.Detalhe {
+    background-color: var(--cor4);
+    height: 40px;
+    transform: translateY(-40px);
+}
+
+.RodapeConteudo {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 30px;
+}
+.RodapeColuna h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--cor1);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.RodapeColuna p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.IconesPagamento img {
+    outline: solid var(--cor2);
+    height: 40px;
+    margin-right: 10px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    padding: 5px;
     border-radius: 5px;
-    padding: 10px;
+}
+
+.RodapeBarraFinal {
     color: white;
-}
-.Rodape h3 {
-    font-size: 20px;
-}
-
-.Rodape p {
-    margin-top: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.Info a {
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 20px;
-    color:rgb(255, 254, 254)
-}
-
-.Info a:hover {
-    text-decoration: underline
-}
-
-.Info {
-    float: left;
-    height: 110px
-}
-
-.Pagamentos {
-    float: left;
-    height: 110px
-}
-
-.Pagamentos img {
-    height: 80px;
-    width: auto;
-}
-
-.Creditos {
-    float: left;
     background-color: var(--cor2);
-    height: 80px;
-    width: auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.RodapeColuna a {
+    color: white;
+    text-decoration: underline;
 }
