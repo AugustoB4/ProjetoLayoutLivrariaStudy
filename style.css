@@ -201,7 +201,8 @@ input {
     background-color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -218,6 +219,13 @@ input {
     height: 400px;
     padding-bottom: 20px; 
 }
+
+.ContainerLivros::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 
 .Livro {
     outline: solid var(--cor5);
@@ -272,9 +280,11 @@ input {
     text-align: center;
 }
 
-]
-
 /* ROdapé */
+footer {
+    clear:both
+}
+
 .RodapePrincipal {
     width: 100%;
     color: black;
