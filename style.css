@@ -313,7 +313,7 @@ input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-right: 0%;
-    font-size: 25px;
+    font-size: 28px;
     margin-bottom: 5px;
 }
 
@@ -325,7 +325,7 @@ input {
 }
 
 .BackConteudo a > img {
-    margin-top: 0px;
+    margin-top: -10px;
     height: 80px;
     width: 160px;
 }
@@ -336,7 +336,7 @@ input {
 
 .BackConteudo .AppStore {
     min-width: 20px;
-    margin-top: -55px;
+    margin-top: -65px;
     height: 190px;
 }
 
