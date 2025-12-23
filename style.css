@@ -283,21 +283,21 @@ input {
 
 .Conteudo {
     clear: both;
-    height: 50%;
     width: 100%;
 }
 
 .BackConteudo {
     position: relative;
     background-color: var(--cor2);
-    height: 300px;
+    height: 330px;
     width: 100%;
 }
 
-.MulherSurpresaCelular {
-    height: 300px;
+.BackConteudo .MulherSurpresaCelular {
+    height: 330px;
     float: left;
     margin-right: 20px;
+
 }
 
 .BackConteudo h3 {
@@ -314,7 +314,7 @@ input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-right: 0%;
-    font-size: clamp(14px, 3vw, 24px);
+    font-size: clamp(10px, 3vw, 24px);
     margin-bottom: 5px;
 }
 
@@ -327,16 +327,16 @@ input {
 }
 
 .BackConteudo a > img {
-    position: relative;
-    margin-top: 10px;
+    position: absolute;
     height: 60px;
     width: 160px;
-    margin-right: 10px;
+    top: 80%;
+    left: 50%;
 }
 
-.BackConteudo .PlaySote {
-    margin-top: 10px;
-    float: left;
+.BackConteudo .AppStore {
+    height: 160px;
+    top: 51%
 }
 
 
