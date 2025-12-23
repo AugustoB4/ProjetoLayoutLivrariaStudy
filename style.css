@@ -280,9 +280,70 @@ input {
     text-align: center;
 }
 
+
+.Conteudo {
+    clear: both;
+    height: 50%;
+    width: 100%;
+}
+
+.BackConteudo {
+    position: relative;
+    background-color: var(--cor2);
+    height: 300px;
+    width: 100%;
+}
+
+.MulherSurpresaCelular {
+    height: 300px;
+    float: left;
+}
+
+.BackConteudo h3 {
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--cor1);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.BackConteudo p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-right: 0%;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.BackConteudo a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.BackConteudo a > img {
+    margin-top: 0px;
+    height: 80px;
+    width: 160px;
+}
+
+.BackConteudo .PlaySote {
+    float: left;
+}
+
+.BackConteudo .AppStore {
+    min-width: 20px;
+    margin-top: -55px;
+    height: 190px;
+}
+
 /* ROdapé */
+
 footer {
-    clear:both
+    clear: both;
 }
 
 .RodapePrincipal {
