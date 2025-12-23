@@ -289,12 +289,12 @@ input {
 .BackConteudo {
     position: relative;
     background-color: var(--cor2);
-    height: 330px;
+    height: 340px;
     width: 100%;
 }
 
 .BackConteudo .MulherSurpresaCelular {
-    height: 330px;
+    height: 340px;
     float: left;
     margin-right: 20px;
 
@@ -314,7 +314,7 @@ input {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     margin-right: 0%;
-    font-size: clamp(10px, 3vw, 24px);
+    font-size: clamp(10px, 3.2vw, 30px);
     margin-bottom: 5px;
 }
 
@@ -322,7 +322,7 @@ input {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     text-decoration: none;
-    font-size: clamp(14px, 3vw, 24px);
+    font-size: clamp(14px, 3.2vw, 30px);
     display: inline;
 }
 
