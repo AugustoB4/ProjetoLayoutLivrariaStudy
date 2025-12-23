@@ -201,7 +201,7 @@ input {
     background-color: rgb(255, 255, 255);
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 80vh;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -271,6 +271,8 @@ input {
     border-top-left-radius: 10px;
     text-align: center;
 }
+
+]
 
 /* ROdapé */
 .RodapePrincipal {
